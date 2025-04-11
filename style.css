@@ -1,13 +1,119 @@
 /* fonts */
 :root {
-    --primary-font: 'Poppins', sans-serif;
+    --primary-font: "Poppins", sans-serif;
 }
 
 /* colors */
-:root{
-    --primary-color: #C49876;
-    --secondary-color: #F1DBC6;
-    --tertiary-color: #111111;
-    --tertiary-font-color: #4B4B4B;
+:root {
+    --primary-color: #c49876;
+    --secondary-color: #f1dbc6;
+    --tertiary-color: #020202;
+    --tertiary-font-color: #4b4b4b;
 }
 
+body {
+    font-family: var(--primary-font);
+}
+
+/* navbar */
+.nav-section {
+    background-color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.nav-logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.nav-link {
+    color: var(--tertiary-font-color) !important;
+    margin-right: 1rem;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color) !important;
+    font-weight: 500;
+}
+
+.nav-buttons .btn {
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.btn-outline-brown {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: #fefefe;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.btn-outline-brown:hover {
+    background-color: var(--primary-color);
+    color: #fefefe;
+}
+
+/* hero */
+.hero-section {
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFEFE0;
+}
+
+.hero-text {
+    max-width: 550px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-title .highlight {
+    color: var(--primary-color);
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+@media (max-width: 768px) {
+    .hero-section .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* project types */
+.house-types {
+    background-color:var(--secondary-color);
+    color: var(--tertiary-color);
+}
+
+.house-types .icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.house-types h5 {
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .house-types .icon-box {
+        margin-bottom: 1rem;
+    }
+}
+
+/* about us */
