@@ -117,3 +117,26 @@ body {
 }
 
 /* about us */
+.about-section {
+    background-color: #fff7f2;
+    color: #333;
+  }
+  
+  .about-section h2 {
+    color: #1a1a1a;
+  }
+  
+  .about-section .btn-outline-primary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+  }
+  
+  .about-section .btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  .about-section i {
+    font-size: 1.2rem;
+  }
+  
