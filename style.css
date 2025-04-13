@@ -51,6 +51,7 @@ body {
     padding: 0.5rem;
     border-radius: 10px;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .btn-outline-brown:hover {
@@ -65,7 +66,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #FFEFE0;
+    background-color: #ffefe0;
 }
 
 .hero-text {
@@ -96,7 +97,7 @@ body {
 
 /* project types */
 .house-types {
-    background-color:var(--secondary-color);
+    background-color: var(--secondary-color);
     color: var(--tertiary-color);
 }
 
@@ -118,25 +119,230 @@ body {
 
 /* about us */
 .about-section {
-    background-color: #fff7f2;
+    background-color: #fefefe;
     color: #333;
-  }
-  
-  .about-section h2 {
+}
+
+.about-section h2 {
     color: #1a1a1a;
-  }
-  
-  .about-section .btn-outline-primary {
+}
+
+.about-section .btn-outline-primary {
     border-color: var(--primary-color);
     color: var(--primary-color);
-  }
-  
-  .about-section .btn-outline-primary:hover {
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.about-section .btn-outline-primary:hover {
     background-color: var(--primary-color);
+    color: #fefefe;
+}
+
+.about-section i {
+    font-size: 1.2rem;
+}
+
+.icon-title {
+    font-weight: 500;
+}
+
+.icon-circle {
+    background-color: var(--primary-color);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* capabilites section */
+.capabilities-section {
+    background-color: #fff;
+    color: #1a1a1a;
+}
+
+.capability-card {
+    background-color: transparent;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.capability-card:hover {
+    transform: translateY(-5px);
+}
+
+.capability-card h6 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.capability-card p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.learn-more-link {
+    color: #d28b64;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.learn-more-link:hover {
+    text-decoration: underline;
+}
+
+/* mid section */
+.mid-section {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.blueprint-image {
+    position: absolute;
+    top: 0;
+    width: 300px;
+}
+
+.blueprint-image.left {
+    left: 0;
+}
+
+.blueprint-image.right {
+    right: 0;
+}
+
+/* team section */
+.team-section {
+    background-color: #fefefe;
+}
+
+.team-card {
+    position: relative;
+    background-color: #fefefe;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 250px;
+}
+
+.team-card img {
+    border-radius: 8px;
+}
+
+/* testimonial section */
+.testimonial-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.testimonial-section .section-title {
+    color: #795c5f;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.testimonial-section .section-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.testimonial-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px 20px;
+    position: relative;
+    height: 100%;
+}
+
+.testimonial-card .profile-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial-card .name {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.testimonial-card .role {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.testimonial-card .review {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.testimonial-card .stars i {
+    color: #c59a6d;
+    margin: 0 1px;
+}
+
+/* contact us section */
+.contact-us-section {
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+
+  .contact-us-section .title {
+    color: #c59a6d;
+    font-size: 14px;
+    font-weight: 500;
+    color: #795c5f;
+  }
+
+  .contact-us-section .title-main {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+  }
+
+  .contact-info p {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .contact-info .info-heading {
+    font-weight: 600;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    border: 1px solid #c59a6d;
+    border-radius: 6px;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .contact-form textarea {
+    height: 120px;
+    resize: none;
+  }
+
+  .contact-form .btn-submit {
+    border: 1px solid #c59a6d;
+    color: #c59a6d;
+    padding: 8px 20px;
+    border-radius: 6px;
+    background-color: transparent;
+    transition: 0.3s ease;
+  }
+
+  .contact-form .btn-submit:hover {
+    background-color: #c59a6d;
     color: #fff;
   }
-  
-  .about-section i {
-    font-size: 1.2rem;
-  }
-  
