@@ -17,7 +17,7 @@ body {
 
 /* navbar */
 .nav-section {
-    background-color: #fff;
+    background-color: #fefefe;
     padding: 1rem 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
@@ -159,7 +159,7 @@ body {
 
 /* capabilites section */
 .capabilities-section {
-    background-color: #fff;
+    background-color: #fefefe;
     color: #1a1a1a;
 }
 
@@ -195,7 +195,7 @@ body {
 
 /* mid section */
 .mid-section {
-    background-color: #fff;
+    background-color: #fefefe;
     overflow: hidden;
 }
 
@@ -233,7 +233,7 @@ body {
 /* testimonial section */
 .testimonial-section {
     padding: 60px 20px;
-    background-color: #fff;
+    background-color: #fefefe;
     text-align: center;
 }
 
@@ -251,7 +251,7 @@ body {
 }
 
 .testimonial-card {
-    background: #fff;
+    background: #fefefe;
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 30px 20px;
@@ -286,63 +286,106 @@ body {
 }
 
 .testimonial-card .stars i {
-    color: #c59a6d;
+    color: var(--primary-color);
     margin: 0 1px;
 }
 
 /* contact us section */
 .contact-us-section {
     padding: 60px 20px;
-    background-color: #fff;
-  }
+    background-color: #fefefe;
+}
 
-  .contact-us-section .title {
-    color: #c59a6d;
+.contact-us-section .title {
+    color: var(--primary-color);
     font-size: 14px;
     font-weight: 500;
     color: #795c5f;
-  }
+}
 
-  .contact-us-section .title-main {
+.contact-us-section .title-main {
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 20px;
+}
 
-  }
-
-  .contact-info p {
+.contact-info p {
     margin-bottom: 10px;
     font-size: 15px;
-  }
+}
 
-  .contact-info .info-heading {
+.contact-info .info-heading {
     font-weight: 600;
-  }
+}
 
-  .contact-form input,
-  .contact-form textarea {
-    border: 1px solid #c59a6d;
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid var(--primary-color);
     border-radius: 6px;
     padding: 10px 15px;
     font-size: 14px;
-  }
+}
 
-  .contact-form textarea {
+.contact-form textarea {
     height: 120px;
     resize: none;
-  }
+}
 
-  .contact-form .btn-submit {
-    border: 1px solid #c59a6d;
-    color: #c59a6d;
+.contact-form .btn-submit {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
     padding: 8px 20px;
     border-radius: 6px;
     background-color: transparent;
     transition: 0.3s ease;
-  }
+}
 
-  .contact-form .btn-submit:hover {
-    background-color: #c59a6d;
-    color: #fff;
-  }
+.contact-form .btn-submit:hover {
+    background-color: var(--primary-color);
+    color: #fefefe;
+}
+
+/* footer */
+.footer-section {
+    background-color: #111;
+    color: #fefefe;
+    padding: 60px 0 20px;
+    font-size: 14px;
+}
+
+.footer-section a {
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: var(--primary-color);
+}
+
+.footer-section .social-icons a {
+    color: #fefefe;
+    margin-right: 10px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.footer-section .footer-bottom {
+    border-top: 1px solid #fefefe;
+    padding-top: 15px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer-logo {
+    font-weight: bold;
+}
+
+.footer-section ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-section li {
+    margin-bottom: 6px;
+}
